@@ -13,4 +13,6 @@ export NETCDF=$(nc-config --prefix)
 cp ./arc/macros.mpp.mpiifort.xcat macros
 cp ./arc/Makefile.mpp Makefile.comm
 
+mkdir lib mod
+
 bash compile_offline_NoahMP.sh setEnvar.sh
